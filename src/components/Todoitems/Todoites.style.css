@@ -1,0 +1,22 @@
+.items{
+background-color: lightgray;
+font-size: 19px;
+padding:10px;
+border-bottom: 1px rgb(212, 164, 164) dotted;
+}
+.hidden{
+text-decoration: line-through;
+}
+.btn{
+background-color:red;
+color:white;
+border: none;
+padding: 5px 10px;
+border-radius: 50px;
+float: right;
+cursor: pointer; 
+}
+
+.btn:active {
+    transform: scale(0.8, 0.8);
+}

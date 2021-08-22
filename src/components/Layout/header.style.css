@@ -1,0 +1,32 @@
+.header{
+background-color: rgb(26, 29, 28);
+color: white;
+text-align: center;
+padding:10px;
+}
+
+.form{
+display: flex;
+}
+
+.submitbtn{
+flex: 1;
+cursor: pointer;
+}
+
+.form-control{
+flex: 10;
+padding: 10px;
+}
+.submitbtn:hover{
+background: gray;
+}
+
+.submitbtn:active
+.submitbtn:focus {
+  color: #9555af;
+  border-color: currentColor;
+  transform: scaleX(1.5);
+  background-color: white;
+}
+    
